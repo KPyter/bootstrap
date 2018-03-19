@@ -1,0 +1,25 @@
+.nowrap {
+    white-space: nowrap;
+}
+
+@media (max-width: 48em) {
+    table .btn {
+        font-size: 0.75rem;
+        font-size: 3.5vw;
+    }
+}
+
+header{
+    background: #f8f8f8;
+}
+
+header ul{
+    margin:0;
+}
+
+header a,
+header li{
+    padding:1.4rem 0;
+    color: #777;
+    font-weight:bold;
+}

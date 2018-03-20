@@ -23,3 +23,57 @@ header li{
     color: #777;
     font-weight:bold;
 }
+
+section#intro-header{
+    background-image: url(../imgs/landscape.jpg);
+    background-size: cover;
+}
+
+section#intro-header .wrap-headline{
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+
+section#intro-header h1,
+section#intro-header h2{
+    color: #fff;
+}
+
+section#intro-header h2{
+    font-size: 1.5rem;
+}
+
+section#intro-header hr{
+    width: 10%;
+}
+                      
+section#intro-header .btn-default {
+    background-color: rgba(0,255,255,0);
+    border: none;
+}
+
+section#about img{
+    margin-top: 6.5rem;
+    margin-bottom: 5rem;
+}
+
+section#about h3{
+    margin-top: 10rem;
+}
+
+section#features{
+    background-color: #eef2f5;
+    border-top: 01.rem solid #e9e9e9;
+    border-bottom: 01.rem solid #e9e9e9;
+}
+
+section#features * {
+    color: #657C8E;
+}
+
+section#features .feature {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}

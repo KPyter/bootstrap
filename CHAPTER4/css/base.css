@@ -49,7 +49,7 @@ section#intro-header hr{
 }
                       
 section#intro-header .btn-default {
-    background-color: rgba(0,255,255,0);
+    background-color: rgba(255,255,255,0.5);
     border: none;
 }
 
@@ -76,4 +76,37 @@ section#features .feature {
     padding-top: 2rem;
     padding-bottom: 4rem;
     text-align: center;
+}
+
+section#pricing h3.pricing-headline {
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+}
+
+section#pricing .white-text {
+    color: #fff;
+}
+
+section#pricing thead .success{
+    background-color: #78CFBF;
+}
+
+section#pricing thead .info{
+    background-color: #3EC6E0;
+}
+
+section#pricing thead .danger{
+    background-color: #E3536C;
+}
+
+section#pricing tbody .success{
+    background-color: #82DACA;
+}
+
+section#pricing tbody .info{
+    background-color: #53CFE9;
+}
+
+section#pricing tbody .danger{
+    background-color: #EB6379;
 }

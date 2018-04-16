@@ -42,12 +42,28 @@
                     <hr>
                     <ul class="list-inline list-unstyled text-center">
                         <li>
-                            <a class="btn btn-default btn-lg" href="#" role="button">登入</a>
+                            <a id="sign-btn" class="btn btn-default btn-lg" href="#" role="button">登入</a>
                         </li>
                         <li>
                             <a class="btn btn-default btn-lg" href="#" role="button">註冊</a>
                         </li>
                     </ul>
+
+                    <form id="signin" class="form-inline text-center  hidden-element">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-addon">@</div>
+                                <input type="text" class="form-control" id="signin-email" placeholder="電子郵件">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-addon">*</div>
+                                <input type="password" class="form-control" id="signin-password" placeholder="密碼">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-default">登入</button>
+                    </form>
                 </div>
             </div>
         </div>

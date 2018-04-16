@@ -14,4 +14,11 @@ $(document).ready(function(){
               $button.after('<span>訊息已送出。我們將盡快和您聯繫。</span>');
             }
     });
+
+    $('#sign-btn').on('click',function(e) {
+        $(e.currentTarget).closest('ul').hide();
+        $('form#signin').fadeIn('fast');
+    });
+    
 });
+

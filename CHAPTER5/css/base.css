@@ -87,27 +87,27 @@ section#pricing .white-text {
     color: #fff;
 }
 
-section#pricing thead .success{
+section#pricing thead .success {
     background-color: #78CFBF;
 }
 
-section#pricing thead .info{
+section#pricing thead .info {
     background-color: #3EC6E0;
 }
 
-section#pricing thead .danger{
+section#pricing thead .danger {
     background-color: #E3536C;
 }
 
-section#pricing tbody .success{
+section#pricing tbody .success {
     background-color: #82DACA;
 }
 
-section#pricing tbody .info{
+section#pricing tbody .info {
     background-color: #53CFE9;
 }
 
-section#pricing tbody .danger{
+section#pricing tbody .danger {
     background-color: #EB6379;
 }
 
@@ -118,12 +118,12 @@ footer{
 }
 
 footer h5,
-footer img{
+footer img {
     margin-top: 5em;
     font-weight: bold;
 }
 
-footer address{
+footer address {
     margin-top: 5em;
     margin-bottom: 5em;
     color: #5A5A5A;
@@ -144,7 +144,7 @@ footer a {
     color: #5A5A5A;
 }
 
-footer a:hover{
+footer a:hover {
     text-decoration: none;
     color: #FFF;
 }
@@ -174,18 +174,40 @@ section#newsletter {
       display: none;
   }
 
-  section#team ul{
+  section#team ul {
       margin: 5rem 0;
   }
-  section#team li{
+  section#team li {
     margin: 0 5rem ;
 }
 
-section#team h5{
+section#team h5 {
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-section#pricing .center-block{
+section#pricing .center-block {
     width:90%;
+}
+
+section#features .feature {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+section#features .glyphicon {
+    font-size:2rem;
+}
+
+section#features .glyphicon-heart {
+    color: #E04C4C;
+}
+
+section#features .feature-tag {
+    max-width: 10.7rem;
+    display: inline-block;
+    text-align: left;
+    margin-left: 1.5rem;
+    font-size: 1.7rem;
 }
